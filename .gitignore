@@ -1,0 +1,7 @@
+.DS_Store
+# dependencies installed by npm
+node_modules
+package-lock.json
+
+# build artefacts
+public
