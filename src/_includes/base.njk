@@ -10,12 +10,7 @@
 <body>
   <header>
     <h1>{{  title  }}</h1>
-    <ul>
-      <li><a href="/">home</a></li>
-      {% for page in collections.pages %}
-      <li> <a href="{{ page.url }}">{{ page.data.title }}</a></li>
-      {% endfor %}
-    </ul>
+    {% include "nav.njk" %}
   </header>
   <main>{{ content | safe }}</main>
 </body>
