@@ -1,5 +1,0 @@
-{
-  "layout": "blog",
-  "tags": "posts",
-  "permalink": "/blog-azul/{{ page.fileSlug }}/"
-}
