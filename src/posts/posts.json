@@ -1,5 +1,5 @@
 {
-  "layout": "base.njk",
+  "layout": "blog",
   "tags": "posts",
-  "permalink": "/{{ page.fileSlug }}/"
+  "permalink": "/blog-azul/{{ page.fileSlug }}/"
 }
