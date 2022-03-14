@@ -24,4 +24,4 @@ npm install --save-dev @11ty/eleventy
 
 
 # Enlaces
-* **Documentación:** [11ty.dev/docs|https://www.11ty.dev/docs/]
+* **Documentación:** [11ty.dev/docs](https://www.11ty.dev/docs/)
