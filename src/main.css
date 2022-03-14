@@ -1,4 +1,17 @@
+:root {
+  --c-one: #6a4aa1;
+  --c-two: #292d33;
+  --c-three: #fff;
+  --c-four: #111111;
+  --c-five: #e5e5e5;
+}
+
 body {
   margin: 0;
-  background-color: #999;
+  background-color: var(--c-five);
+  color: var(--c-four);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--c-one);
 }
