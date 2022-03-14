@@ -3,4 +3,11 @@ layout: base.njk
 ---
 <h2>{{ subtitle }}</h2>
 <article>{{ content | safe}}</article>
+
+<aside>
+  {% for fact in facts | randomItem %}
+  <h2>{{ fact }}</h2>
+  {% endfor %}
+</aside>
+
 <footer>copy page</footer>
