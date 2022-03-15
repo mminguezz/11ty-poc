@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{ siteTitle }}</title>
-  <link rel="stylesheet" href="/main.css">
+  <title>{{ site_title }}</title>
+
+  {% include "block/meta.njk" %}
+
+  {% include "block/style.njk" %}
 </head>
-<body>
-  <header>
-    <h1>{{ title }}</h1>
-  </header>
-  <main>{{ content | safe }}</main>
+<body class="view-login">
+  {% include "block/login.njk" %}
 </body>
 </html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ site_title }}</title>
+
+  {% include "block/meta.njk" %}
+
+  {% include "block/style.njk" %}
+</head>
+<body class="{{ class__body }}">
+
+  {% include "block/header.njk" %}
+  {% include "block/main.njk" %}
+  {% include "block/footer.njk" %}
+
+  {% include "block/overlay.njk" %}
+
+  {% include "block/script.njk" %}
+</body>
+</html>

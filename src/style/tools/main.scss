@@ -1,0 +1,24 @@
+$copy__font-size:               15px !default;
+$heading__font-size:            26px !default;
+
+// [TODO] https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862
+$breakpoint--s:           600px !default;
+$breakpoint--m:           900px !default;
+$breakpoint--l:          1200px !default;
+$breakpoint--xl:         1800px !default;
+
+
+// colors
+$color__brand-primary:      #004481 !default;
+$color__brand-secondary:    #2dcccd !default;
+
+$color__brand-list:         #5bbeff !default;
+$color__neutral-white:      #ffffff !default;
+$color__neutral-black:      #121212 !default;
+
+
+
+// Main font families
+$font-family__sans-fallback:   Arial, Geneva, sans-serif !default; // Fallback families
+$font-family__primary:         "roboto" , $font-family__sans-fallback !default;
+// $font-family__icon:            "coronita-icons", $font-family__sans-fallback !default;

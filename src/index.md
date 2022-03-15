@@ -1,6 +1,6 @@
 ---
-siteTitle: Hello 11ty
-layout: "base.njk"
+site_title: Hello 11ty
+layout: "main.njk"
 templateEngineOverride: njk,md
 
 title: Hi!!

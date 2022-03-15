@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch"
+    "start": "npm run style:watch & npm run 11ty:serve ",
+    "11ty:serve": "npx @11ty/eleventy --serve",
+    "11ty:build": "npx @11ty/eleventy",
+    "11ty:watch": "npx @11ty/eleventy --watch",
+    "style": "sass src/style/main.scss src/main.css --no-source-map",
+    "style:watch": "npx sass --watch src/style/main.scss src/main.css --no-source-map"
+
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "sass": "^1.49.9"
   },
   "dependencies": {
-    "sass": "^1.49.9"
   }
 }

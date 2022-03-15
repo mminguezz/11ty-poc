@@ -1,0 +1,17 @@
+@import "normalice.css";
+
+body {
+  font-family: $font-family__primary;
+  font-size: $copy__font-size;
+  color: blue;
+}
+
+h1 {
+  font-size: $heading__font-size;
+}
+
+p,
+ul,
+h1, h2, h3 , h4, h5, h6 {
+  margin: 0 0 1rem;
+}
